@@ -9,29 +9,11 @@ p {
     text-align: center;
 }
 
-.group:before,
-.group:after {
-    content: "";
-    display: table;
-}
-
-.group:after {
-    clear: both;
-}
-
-.group {
-    background: #eaeaed;
-    border-radius: 6px;
-    clear: both;
-    *zoom: 1;
-}
-
 section {
-    float: left;
+    display: inline-block;
     width: 30%;
 }
 
-.group,
 header,
 section,
 footer {
@@ -39,6 +21,5 @@ footer {
 }
 
 footer {
-    clear: both;
     margin-bottom: 0;
 }
