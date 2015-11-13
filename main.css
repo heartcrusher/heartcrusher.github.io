@@ -23,3 +23,30 @@ footer {
 footer {
     margin-bottom: 0;
 }
+
+.heading {
+    text-shadow: 3px 6px 2px  rgba(0, 0, 0, .3)
+}
+
+section p, header, footer  {
+    box-shadow: 5px 8px 2px rgba(0,0,0,.3);
+}
+
+.upper {
+    text-transform: uppercase;
+    word-spacing: .9em;
+}
+
+.capitalize {
+    text-transform: capitalize;
+    letter-spacing: .1em;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.spacing {
+    letter-spacing: -.1em;
+}
+
